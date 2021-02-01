@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
+@import "scrollBar";
+
+$primaryColor: #141432;
+$scondaryColor: #fcce19;
+$greyColor: #505050;
+
+// font-family: 'Playfair Display', serif;
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  // background-image: url(../images/bg-hero.png);
+}
+
+nav {
+  box-shadow: 1px 1px 80px rgba($scondaryColor, 0.3);
+  height: 80px;
+  background-color: white;
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #3d3d3d;
+    margin-bottom: -2px;
+  }
+  ul {
+    font-weight: 500;
+    .active {
+      color: $scondaryColor;
+    }
+    li {
+      margin-left: 20px;
+    }
+  }
+}
+
+.jumbotron {
+  padding: 0;
+  margin-top: 60px;
+  border-bottom: 1px solid rgba(#fcce19, 0.3);
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    color: $primaryColor;
+  }
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: $greyColor;
+  }
+  p {
+    color: $primaryColor;
+    font-size: 24px;
+  }
+  .doodle1 {
+    position: absolute;
+    top: 20px;
+  }
+  .doodle2 {
+    position: absolute;
+    top: 500px;
+    right: -55px;
+  }
+  .find-more {
+    margin-bottom: 20px;
+  }
+}
+
