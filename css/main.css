@@ -84,7 +84,7 @@ nav ul li {
 .jumbotron .btn-custom:hover {
   background-color: white;
   border: 1px solid #fcce19;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .jumbotron .doodle1 {
@@ -102,8 +102,36 @@ nav ul li {
   margin-bottom: 20px;
 }
 
+.about-me {
+  background-image: url(../images/hand.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about-me .heading-section {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #141432;
+}
+
+.about-me p {
+  color: #141432;
+  font-size: 20px;
+}
+
+.service {
+  background-color: #f0f0f0;
+  height: 400px;
+}
+
+.service .heading-section {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #141432;
+  text-align: center;
+}
+
 .kosong {
   height: 300px;
-  background-color: #fcce19;
 }
 /*# sourceMappingURL=main.css.map */
